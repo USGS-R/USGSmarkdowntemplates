@@ -2,10 +2,11 @@
 author: $if(author)$$author$$endif$
 date: $if(date)$$date$$endif$
 slug: $if(slug)$$slug$$endif$
-status: draft
+draft: True
 title: $if(title)$$title$$endif$
-categories:
-  - r
+categories: Data Science
+tags: 
+  - R
 ---
 $for(header-includes)$
 $header-includes$
