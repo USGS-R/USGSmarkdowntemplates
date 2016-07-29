@@ -3,7 +3,7 @@ title: "INSERT_TITLE_HERE"
 slug: "INSERT_SLUG_HERE"
 author: "AUTHOR"
 date: "YYYY-MM-DD"
-output: USGSUSGSmarkdowntemplates::hugo
+output: USGSmarkdowntemplates::hugo
 ---
 ```{r setup, include=FALSE}
 library(knitr)
