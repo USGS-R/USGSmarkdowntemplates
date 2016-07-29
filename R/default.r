@@ -65,7 +65,7 @@ skeleton <- function(number_sections = FALSE,
 
   dep <- htmltools::htmlDependency("skeleton", "2.0.4",
                                    system.file("rmarkdown", "templates", "default", "resources",
-                                               package = "USGSUSGSmarkdowntemplates"),
+                                               package = "USGSmarkdowntemplates"),
                                    stylesheet=c("normalize.css", "skeleton.css", "CUSTOMIZE_ME.css"))
 
   extra_dependencies <- append(extra_dependencies, list(dep))
@@ -76,7 +76,7 @@ skeleton <- function(number_sections = FALSE,
 
   args <- c(args, "--template",
             rmarkdown::pandoc_path_arg(system.file("rmarkdown", "templates", "default", "base.html",
-                                                   package = "USGSUSGSmarkdowntemplates")))
+                                                   package = "USGSmarkdowntemplates")))
 
   if (number_sections)
     args <- c(args, "--number-sections")
