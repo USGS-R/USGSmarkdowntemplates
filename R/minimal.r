@@ -14,7 +14,7 @@
 #' The following example shows all possible YAML frontmatter options:
 #' \preformatted{---
 #' title: "INSERT_TITLE_HERE"
-#' output: markdowntemplates::minimal
+#' output: USGSmarkdowntemplates::minimal
 #' ---}
 #'
 #' @inheritParams rmarkdown::html_document
@@ -51,7 +51,7 @@ minimal <- function(number_sections = FALSE,
 
   dep <- htmltools::htmlDependency("minimal", "0.0.1",
                                    system.file("rmarkdown", "templates", "minimal", "resources",
-                                               package = "markdowntemplates"),
+                                               package = "USGSmarkdowntemplates"),
                                    stylesheet="CUSTOMIZE_ME.css")
 
   extra_dependencies <- append(extra_dependencies, list(dep))
@@ -63,7 +63,7 @@ minimal <- function(number_sections = FALSE,
 
   args <- c(args, "--template",
             rmarkdown::pandoc_path_arg(system.file("rmarkdown", "templates", "minimal", "base.html",
-                                                   package = "markdowntemplates")))
+                                                   package = "USGSmarkdowntemplates")))
 
   if (number_sections)
     args <- c(args, "--number-sections")

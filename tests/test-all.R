@@ -1,2 +1,2 @@
 library(testthat)
-test_check("markdowntemplates")
+test_check("USGSmarkdowntemplates")

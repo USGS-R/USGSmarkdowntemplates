@@ -28,7 +28,7 @@
 #'   - content: '[link1](http://example.com/) • [link2](http://example.com/)<br/>'
 #'   - content: 'Copyright blah blah'
 #' date: "`r Sys.Date()`"
-#' output: markdowntemplates::skeleton
+#' output: USGSmarkdowntemplates::skeleton
 #' ---}
 #'
 #' @inheritParams rmarkdown::html_document
@@ -65,7 +65,7 @@ skeleton <- function(number_sections = FALSE,
 
   dep <- htmltools::htmlDependency("skeleton", "2.0.4",
                                    system.file("rmarkdown", "templates", "default", "resources",
-                                               package = "markdowntemplates"),
+                                               package = "USGSUSGSmarkdowntemplates"),
                                    stylesheet=c("normalize.css", "skeleton.css", "CUSTOMIZE_ME.css"))
 
   extra_dependencies <- append(extra_dependencies, list(dep))
@@ -76,7 +76,7 @@ skeleton <- function(number_sections = FALSE,
 
   args <- c(args, "--template",
             rmarkdown::pandoc_path_arg(system.file("rmarkdown", "templates", "default", "base.html",
-                                                   package = "markdowntemplates")))
+                                                   package = "USGSUSGSmarkdowntemplates")))
 
   if (number_sections)
     args <- c(args, "--number-sections")

@@ -19,7 +19,7 @@
 #' title: "INSERT_TITLE_HERE"
 #' author: "AUTHOR"
 #' date: "`r Sys.Date()`"
-#' output: markdowntemplates::kube
+#' output: USGSmarkdowntemplates::kube
 #' ---}
 #'
 #' @author Kieran Healy \href{mailto:kjhealy@gmail.com}{kjhealy@gmail.com}
@@ -57,7 +57,7 @@ kube <- function(number_sections = FALSE,
 
   dep <- htmltools::htmlDependency("kube", "4.3.0",
                                    system.file("rmarkdown", "templates", "kube", "resources",
-                                               package = "markdowntemplates"),
+                                               package = "USGSmarkdowntemplates"),
                                    stylesheet=c("kube.css", "CUSTOMIZE_ME.css"))
 
   extra_dependencies <- append(extra_dependencies, list(dep))
@@ -69,7 +69,7 @@ kube <- function(number_sections = FALSE,
 
   args <- c(args, "--template",
             rmarkdown::pandoc_path_arg(system.file("rmarkdown", "templates", "kube", "base.html",
-                                                   package = "markdowntemplates")))
+                                                   package = "USGSmarkdowntemplates")))
 
   if (number_sections)
     args <- c(args, "--number-sections")

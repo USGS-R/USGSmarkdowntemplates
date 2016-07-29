@@ -22,7 +22,7 @@ hugo <- function(toc = FALSE,
                    rmarkdown::pandoc_path_arg(system.file("rmarkdown", "templates",
                                                           "hugo", "resources",
                                                           "default.md",
-                                         package = "markdowntemplates")))
+                                         package = "USGSmarkdowntemplates")))
 
   # use md_document as base
   format <- md_document(variant = "markdown_github",
