@@ -19,7 +19,7 @@ footer:
   - content: "Copyright blah blah"
 date: "`r Sys.Date()`"
 output:
-  markdowntemplates::bulma:
+  USGSmarkdowntemplates::bulma:
     self_contained: true
     create_dir: false
 ---
@@ -46,7 +46,7 @@ test_that("kube template HTML output is correct", {
 writeLines(text='---
 title: "INSERT_TITLE_HERE"
 output:
-  markdowntemplates::kube:
+  USGSmarkdowntemplates::kube:
     self_contained: true
     create_dir: false
 ---
@@ -71,7 +71,7 @@ test_that("minimal template HTML output is correct", {
 writeLines(text='---
 title: "INSERT_TITLE_HERE"
 output:
-  markdowntemplates::minimal:
+  USGSmarkdowntemplates::minimal:
     self_contained: true
     create_dir: false
 ---
@@ -96,7 +96,7 @@ test_that("skeleton template HTML output is correct", {
 writeLines(text='---
 title: "INSERT_TITLE_HERE"
 output:
-  markdowntemplates::skeleton:
+  USGSmarkdowntemplates::skeleton:
     self_contained: true
     create_dir: false
 ---

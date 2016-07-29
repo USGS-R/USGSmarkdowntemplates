@@ -7,24 +7,24 @@
 #' not here, file an issue and I'll add it.
 #'
 #' \itemize{
-#' \item \code{bulma} (\code{output: markdowntemplates::bulma}) uses the Bulma CSS
+#' \item \code{bulma} (\code{output: USGSmarkdowntemplates::bulma}) uses the Bulma CSS
 #' framework and has optional \code{navlink} YAML
 #' header element as well as support for limited OpenGraph header elements
 #' (see the example Rmd) which will be used in header of the generated file.
 #'
-#' \item \code{skeleton} (\code{output: markdowntemplates::skeleton}) or
-#' \code{default} (\code{output:markdowntemplates::default}) uses the Skeleton CSS
+#' \item \code{skeleton} (\code{output: USGSmarkdowntemplates::skeleton}) or
+#' \code{default} (\code{output:USGSmarkdowntemplates::default}) uses the Skeleton CSS
 #' framework and also has optional \code{navlink} YAML
 #' header element as well as support for limited OpenGraph header elements
 #' (see the example Rmd) which will be used in header of the generated file.
 #'
-#' \item \code{kube} (\code{output: markdowntemplates::kube}) uses the Kube CSS framework
+#' \item \code{kube} (\code{output: USGSmarkdowntemplates::kube}) uses the Kube CSS framework
 #'  (contributed by Kieran Healy)
 #'
-#' \item \code{minimal} (\code{output: markdowntemplates::minimal}) uses no CSS framework and
+#' \item \code{minimal} (\code{output: USGSmarkdowntemplates::minimal}) uses no CSS framework and
 #' only uses the `title` YAML header element.
 #'
-#' \item \code{hugo} (\code{output: markdowntemplates::hugo}) produces markdown suitable
+#' \item \code{hugo} (\code{output: USGSmarkdowntemplates::hugo}) produces markdown suitable
 #' for \href{https://gohugo.io/}{Hugo} websites. It makes a broad assumption that you
 #' will save/use the \code{hugo} document in the \code{content} directory of your Hugo
 #' websites.
@@ -33,7 +33,7 @@
 #' When you use RStudio to create a new R Markdown document, select "From
 #' Template" and choose one of these templates.
 #'
-#' @name markdowntemplates
+#' @name USGSmarkdowntemplates
 #' @docType package
 #' @author Bob Rudis (@@hrbrmstr)
 #' @import rmarkdown knitr htmltools

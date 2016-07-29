@@ -1,14 +1,14 @@
-Package: USGSmarkdowntemplates
+Package: USGSUSGSmarkdowntemplates
 Type: Package
 Title: Alternate R Markdown Templates
-Version: 0.0.0
-Date: 2016-02-06
+Version: 0.0.1
+Date: 2016-07-29
 Author: Bob Rudis (@hrbrmstr), Kieran Healy <kjhealy@gmail.com>
 Maintainer: Bob Rudis <bob@rudis.net>
 Description: A set of alternate R markdown templates that do not
     use Bootstrap and do not include or rely on jQuery.
-URL: http://github.com/hrbrmstr/markdowntemplates
-BugReports: https://github.com/hrbrmstr/markdowntemplates/issues
+URL: http://github.com/hrbrmstr/USGSmarkdowntemplates
+BugReports: https://github.com/hrbrmstr/USGSmarkdowntemplates/issues
 License: MIT + file LICENSE
 Encodig: UTF-8
 Suggests:

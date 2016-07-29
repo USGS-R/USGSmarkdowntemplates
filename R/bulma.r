@@ -27,7 +27,7 @@
 #'   - content: '[link1](http://example.com/) • [link2](http://example.com/)<br/>'
 #'   - content: 'Copyright blah blah'
 #' date: "`r Sys.Date()`"
-#' output: markdowntemplates::bulma
+#' output: USGSmarkdowntemplates::bulma
 #' ---}
 #'
 #' @inheritParams rmarkdown::html_document
@@ -64,7 +64,7 @@ bulma <- function(number_sections = FALSE,
 
   dep <- htmltools::htmlDependency("bulmastyle", "0.0.10",
            system.file("rmarkdown", "templates", "bulma", "resources",
-                       package = "markdowntemplates"),
+                       package = "USGSmarkdowntemplates"),
            stylesheet=c("bulma.css", "CUSTOMIZE_ME.css"))
 
   extra_dependencies <- append(extra_dependencies, list(dep))
@@ -75,7 +75,7 @@ bulma <- function(number_sections = FALSE,
 
   args <- c(args, "--template",
             rmarkdown::pandoc_path_arg(system.file("rmarkdown", "templates", "bulma", "base.html",
-                                                   package = "markdowntemplates")))
+                                                   package = "USGSmarkdowntemplates")))
 
   if (number_sections)
     args <- c(args, "--number-sections")
