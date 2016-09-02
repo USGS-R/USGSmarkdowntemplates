@@ -4,6 +4,7 @@ date: $if(date)$$date$$endif$
 slug: $if(slug)$$slug$$endif$
 draft: True
 title: $if(title)$$title$$endif$
+type: post
 categories: Data Science
 $if(image)$image:$endif$ $if(image)$$image$$endif$
 tags: 
