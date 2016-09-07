@@ -16,8 +16,8 @@ keywords:
   - R
 $if(tag1)$  -$endif$ $if(tag1)$$tag1$$endif$
 $if(tag2)$  -$endif$ $if(tag2)$$tag2$$endif$
-$if(keyword1)$  -$endif$ $if(keyword1)$$tag1$$endif$
-$if(keyword2)$  -$endif$ $if(keyword2)$$tag2$$endif$
+$if(keyword1)$  -$endif$ $if(keyword1)$$keyword1$$endif$
+$if(keyword2)$  -$endif$ $if(keyword2)$$keyword2$$endif$
 ---
 $for(header-includes)$
 $header-includes$
