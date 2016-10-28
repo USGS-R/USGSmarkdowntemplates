@@ -3,7 +3,7 @@ title: "INSERT_TITLE_HERE"
 slug: "INSERT_SLUG_HERE"
 date: "YYYY-MM-DD"
 parent: Course Specific Material
-output: USGSmarkdowntemplates::hugoTraining_courseSpecific
+output: USGSmarkdowntemplates::hugoTraining
 ---
 ```{r setup, include=FALSE}
 library(knitr)
