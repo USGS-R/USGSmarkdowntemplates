@@ -3,7 +3,7 @@
 export(bulma)
 export(default)
 export(hugo)
-export(hugoTraining_courseSpecific)
+export(hugoTraining)
 export(kube)
 export(minimal)
 export(skeleton)

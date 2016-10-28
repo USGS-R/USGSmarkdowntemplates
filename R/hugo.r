@@ -49,7 +49,7 @@ hugo <- function(toc = FALSE,
 #' @return R Markdown output format to pass to \code{\link{render}}
 #'
 #' @export
-hugoTraining_courseSpecific <- function(toc = FALSE,
+hugoTraining<- function(toc = FALSE,
                  toc_depth = 3,
                  fig_width = 7,
                  fig_height = 5,
@@ -62,7 +62,7 @@ hugoTraining_courseSpecific <- function(toc = FALSE,
   # add special markdown rendering template to ensure we include the title fields
   pandoc_args <- c(pandoc_args, "--template",
                    rmarkdown::pandoc_path_arg(system.file("rmarkdown", "templates",
-                                                          "hugoTraining_courseSpecific", "resources",
+                                                          "hugoTraining", "resources",
                                                           "default.md",
                                                           package = "USGSmarkdowntemplates")))
   
