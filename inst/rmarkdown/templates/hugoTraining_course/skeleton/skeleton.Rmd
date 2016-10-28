@@ -1,11 +1,9 @@
 ---
 title: "INSERT_TITLE_HERE"
-author: "INSERT_AUTHOR_HERE"
 slug: "INSERT_SLUG_HERE"
 date: "YYYY-MM-DD"
-image: "INSERT_IMAGE_PATH_HERE"
 parent: Course Specific Material
-output: USGSmarkdowntemplates::hugoTraining
+output: USGSmarkdowntemplates::hugoTraining_course
 ---
 ```{r setup, include=FALSE}
 library(knitr)
