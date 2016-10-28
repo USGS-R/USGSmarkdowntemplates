@@ -4,8 +4,8 @@ author: "INSERT_AUTHOR_HERE"
 slug: "INSERT_SLUG_HERE"
 date: "YYYY-MM-DD"
 image: "INSERT_IMAGE_PATH_HERE"
-parent: Introduction to R Course
 output: USGSmarkdowntemplates::hugoTraining
+parent: Introduction to R Course
 ---
 ```{r setup, include=FALSE}
 library(knitr)
