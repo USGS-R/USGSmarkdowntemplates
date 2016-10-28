@@ -1,13 +1,11 @@
 ---
-author: $if(author)$$author$$endif$
 date: $if(date)$$date$$endif$
 slug: $if(slug)$$slug$$endif$
 title: $if(title)$$title$$endif$
-image: $if(image)$$image$$endif$
 menu:
   main:
     parent: $if(parent)$$parent$$endif$
-    weight: $if(weight)$$weight$$endif$
+    weight: 1
 ---
 $for(header-includes)$
 $header-includes$
