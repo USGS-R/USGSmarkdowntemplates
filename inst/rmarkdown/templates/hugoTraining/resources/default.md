@@ -7,7 +7,7 @@ image: $if(image)$$image$$endif$
 menu:
   main:
     parent: $if(parent)$$parent$$endif$
-    weight: 1
+    weight: $if(weight)$$weight$$endif$
 ---
 $for(header-includes)$
 $header-includes$
