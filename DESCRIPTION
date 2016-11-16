@@ -1,8 +1,8 @@
 Package: USGSmarkdowntemplates
 Type: Package
 Title: Alternate R Markdown Templates
-Version: 0.0.5
-Date: 2016-09-07
+Version: 0.0.6
+Date: 2016-11-16
 Author: Bob Rudis (@hrbrmstr), Kieran Healy <kjhealy@gmail.com>
 Maintainer: Bob Rudis <bob@rudis.net>
 Description: A set of alternate R markdown templates that do not
