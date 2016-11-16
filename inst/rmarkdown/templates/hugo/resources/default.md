@@ -12,6 +12,7 @@ $if(author_github)$author_github:$endif$ $if(author_github)$$author_github$$endi
 $if(author_gs)$author_gs:$endif$ $if(author_gs)$$author_gs$$endif$
 $if(author_researchgate)$author_researchgate:$endif$ $if(author_researchgate)$$author_researchgate$$endif$
 $if(author_staff)$author_staff:$endif$ $if(author_staff)$$author_staff$$endif$
+$if(author_email)$author_email:$endif$ $if(author_email)$$author_email$$endif$
 
 tags: 
   - R
