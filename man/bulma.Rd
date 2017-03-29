@@ -105,9 +105,9 @@ date: "`r Sys.Date()`"
 output: USGSmarkdowntemplates::bulma
 ---}
 }
+
 \examples{
 \dontrun{
 rmarkdown::render("source.Rmd", clean=TRUE, quiet=TRUE, output_file="output.html")
 }
 }
-
