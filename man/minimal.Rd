@@ -88,9 +88,9 @@ title: "INSERT_TITLE_HERE"
 output: USGSmarkdowntemplates::minimal
 ---}
 }
+
 \examples{
 \dontrun{
 rmarkdown::render("source.Rmd", clean=TRUE, quiet=TRUE, output_file="output.html")
 }
 }
-

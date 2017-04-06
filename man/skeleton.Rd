@@ -2,8 +2,8 @@
 % Please edit documentation in R/default.r
 \encoding{UTF-8}
 \name{skeleton}
-\alias{default}
 \alias{skeleton}
+\alias{default}
 \title{Skeleton CSS framework basic template}
 \usage{
 skeleton(number_sections = FALSE, fig_width = 7, fig_height = 5,
@@ -108,9 +108,9 @@ date: "`r Sys.Date()`"
 output: USGSmarkdowntemplates::skeleton
 ---}
 }
+
 \examples{
 \dontrun{
 rmarkdown::render("source.Rmd", clean=TRUE, quiet=TRUE, output_file="output.html")
 }
 }
-

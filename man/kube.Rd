@@ -96,6 +96,7 @@ date: "`r Sys.Date()`"
 output: USGSmarkdowntemplates::kube
 ---}
 }
+
 \examples{
 \dontrun{
 rmarkdown::render("source.Rmd", clean=TRUE, quiet=TRUE, output_file="output.html")
@@ -104,4 +105,3 @@ rmarkdown::render("source.Rmd", clean=TRUE, quiet=TRUE, output_file="output.html
 \author{
 Kieran Healy \href{mailto:kjhealy@gmail.com}{kjhealy@gmail.com}
 }
-
