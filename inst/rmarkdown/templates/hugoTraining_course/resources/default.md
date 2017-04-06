@@ -2,7 +2,6 @@
 date: $if(date)$$date$$endif$
 slug: $if(slug)$$slug$$endif$
 title: $if(title)$$title$$endif$
-draft: True
 menu:
   main:
     parent: $if(parent)$$parent$$endif$
