@@ -43,4 +43,3 @@ Template" and choose one of these templates.
 \author{
 Bob Rudis (@hrbrmstr)
 }
-

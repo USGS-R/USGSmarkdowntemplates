@@ -3,6 +3,7 @@ author: $if(author)$$author$$endif$
 date: $if(date)$$date$$endif$
 slug: $if(slug)$$slug$$endif$
 title: $if(title)$$title$$endif$
+draft: True
 image: $if(image)$$image$$endif$
 menu:
   main:
