@@ -9,6 +9,7 @@ menu:
   main:
     parent: $if(parent)$$parent$$endif$
     weight: $if(weight)$$weight$$endif$
+aliases: $if(aliases)$$aliases$$endif$
 ---
 $for(header-includes)$
 $header-includes$
